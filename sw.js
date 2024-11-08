@@ -1,5 +1,5 @@
 let cacheName = "meus-horarios-pwa";
-let filesToCache = ["/", "/index.html", "/css/style.css", "/js/main.js", "/horarios-aula.html"];
+let filesToCache = ["/", "/index.html", "/css/style.css", "/main.js", "/horarios-aula", "/horarios-pe"];
 
 self.addEventListener("install", (e) => {
     e.waitUntil(
